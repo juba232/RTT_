@@ -1,4 +1,6 @@
-GEO dataset (public on June 23, 2025) with:
+# Introduction 
+An apporach to uncover why mutation happens in the sperm for causing ReT syndrom
+## GEO dataset (public on June 23, 2025) with:
 
 Single-nucleus RNA-seq of sorted MECP2-high and MECP2-low neurons
 
@@ -6,7 +8,7 @@ Isogenic RTT and control samples (5 patients)
 
 Human cortical neurons
 
-🧠 Core Research Questions We Can Address:
+## 🧠 Core Research Questions We Can Address:
 What transcriptomic programs are directly altered by MECP2 loss?
 
 Are there compensatory changes in MECP2+ neurons in RTT brains?
@@ -17,7 +19,7 @@ Can we link the affected pathways to sperm-specific mechanisms of mutation bias?
 
 Are there conserved patterns between human RTT and transgenic rat models?
 
-🧬 Strategic Multi-Step Approach
+## 🧬 Strategic Multi-Step Approach
 ✅ STEP 1: Literature-Guided Hypothesis Framing
 Goal: Use existing literature to identify known MECP2 functions and mutation effects.
 
@@ -110,7 +112,7 @@ Explore whether RTT-affected pathways overlap with spermatogenesis-related expre
 
 Use co-expression networks (e.g., WGCNA) to identify modules enriched in both RTT neurons and sperm mutation hotspots.
 
-📘 Final Output Possibilities
+## 📘 Final Output Possibilities
 Figure Panels:
 
 UMAPs annotated by MECP2 expression
@@ -127,7 +129,7 @@ Cross-species conservation map
 
 Candidate gene list for therapeutic targeting or epigenetic intervention
 
-🧭 Tools and Resources
+## 🧭 Tools and Resources
 Task	Tool	Notes
 Preprocessing	Seurat, Scanpy	SN-RNA-seq aware
 Annotation	SingleR, CellTypist	Use cortical reference
@@ -136,9 +138,6 @@ Pathway	clusterProfiler, enrichR
 Pseudotime	Monocle3, Slingshot	
 Cross-species	biomaRt, g:Profiler	
 Visualization	ggplot2, ComplexHeatmap	Publication-ready
-
-Would you like me to help set up an analysis pipeline using this dataset in R or Python? Or prepare a publication-style outline for the project?
-
 
 
 
